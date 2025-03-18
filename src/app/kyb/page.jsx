@@ -16,149 +16,220 @@ const KYB = () => {
           </div>
 
           <div className=" w-full mx-auto text-center relative">
-            <h4 className="__ldHead ">Which Bird Are You? 🦜✨</h4>
+            <h4 className="__ldHead ">Which Bird Are You? ✨</h4>
             <div className='flex flex-col mt-10 gap-10 lg:mt-14 lg:gap-14'>
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦅 Eagle – The Go-Getter</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Efficiency, practicality, and results.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You prefer quick, no-nonsense recommendations that deliver great <b className=' font-medium'>service</b> at the best <b className=' font-medium'>value</b>.</li>
-                    <li className="text-base lg:text-lg">Time is money, and you trust sources that get straight to the point.</li>
-                    <li className="text-base lg:text-lg">Your choices are calculated, ensuring a smooth experience every time.</li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Eagle – The Go-Getter</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Efficiency, practicality, and results.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You prefer quick, no-nonsense recommendations that deliver great <b className=' font-medium'>service</b> at the best <b className=' font-medium'>value</b>.</li>
+                      <li className="text-base lg:text-lg">Time is money, and you trust sources that get straight to the point.</li>
+                      <li className="text-base lg:text-lg">Your choices are calculated, ensuring a smooth experience every time.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Eagle.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦆 Goose – The Experience Collector</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Moments over material.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You value <b className=' font-medium'>memorable experiences</b> over just the product.</li>
-                    <li className="text-base lg:text-lg">Ambiance, customer care, and emotional connection matter to you.</li>
-                    <li className="text-base lg:text-lg">You seek recommendations that guarantee <b className=' font-medium'>service excellence</b> and a great <b className=' font-medium'>vibe</b>.</li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Goose – The Experience Collector</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Moments over material.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You value <b className=' font-medium'>memorable experiences</b> over just the product.</li>
+                      <li className="text-base lg:text-lg">Ambiance, customer care, and emotional connection matter to you.</li>
+                      <li className="text-base lg:text-lg">You seek recommendations that guarantee <b className=' font-medium'>service excellence</b> and a great <b className=' font-medium'>vibe</b>.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Goose.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦉 Owl – The Perfectionist</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Quality is everything.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You research extensively and only trust <b className=' font-medium'>highly-rated</b> recommendations.</li>
-                    <li className="text-base lg:text-lg">Service and product <b className=' font-medium'>excellence</b> are non-negotiable for you.</li>
-                    <li className="text-base lg:text-lg">You're the one people turn to for well-researched, <b className=' font-medium'>expert-backed</b> choices.</li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Owl – The Perfectionist</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Quality is everything.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You research extensively and only trust <b className=' font-medium'>highly-rated</b> recommendations.</li>
+                      <li className="text-base lg:text-lg">Service and product <b className=' font-medium'>excellence</b> are non-negotiable for you.</li>
+                      <li className="text-base lg:text-lg">You're the one people turn to for well-researched, <b className=' font-medium'>expert-backed</b> choices.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Owl.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦚 Peacock – The Luxe Lover</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Why not have it all?</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You love high-end experiences but <b className=' font-medium'>know how to get the best deals.</b></li>
-                    <li className="text-base lg:text-lg">Exceptional <b className=' font-medium'>service and ambiance</b> make or break a recommendation for you.</li>
-                    <li className="text-base lg:text-lg">You’re drawn to places that offer the <b className=' font-medium'>best of both worlds—luxury and value.</b></li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Peacock – The Luxe Lover</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Why not have it all?</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You love high-end experiences but <b className=' font-medium'>know how to get the best deals.</b></li>
+                      <li className="text-base lg:text-lg">Exceptional <b className=' font-medium'>service and ambiance</b> make or break a recommendation for you.</li>
+                      <li className="text-base lg:text-lg">You’re drawn to places that offer the <b className=' font-medium'>best of both worlds—luxury and value.</b></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Peacock.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦢 Crane – The Smart Selector</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Luxury on a budget.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You know where to find <b className=' font-medium'>high-end experiences at affordable prices.</b></li>
-                    <li className="text-base lg:text-lg">You value <b className=' font-medium'>quality over quantity</b> and seek hidden gems.</li>
-                    <li className="text-base lg:text-lg">You trust recommendations that offer <b className=' font-medium'>premium experiences without the premium cost.</b></li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Crane – The Smart Selector</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Luxury on a budget.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You know where to find <b className=' font-medium'>high-end experiences at affordable prices.</b></li>
+                      <li className="text-base lg:text-lg">You value <b className=' font-medium'>quality over quantity</b> and seek hidden gems.</li>
+                      <li className="text-base lg:text-lg">You trust recommendations that offer <b className=' font-medium'>premium experiences without the premium cost.</b></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Crane.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦩 Flamingo – The Trendsetter</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>If it’s trending, you know about it.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You’re always ahead of the curve, discovering <b className=' font-medium'>new hotspots first.</b></li>
-                    <li className="text-base lg:text-lg">You value <b className=' font-medium'>service and ambiance</b>, ensuring every experience is Instagram-worthy.</li>
-                    <li className="text-base lg:text-lg">Your recommendations influence others, making you a go-to for what’s hot.</li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Flamingo – The Trendsetter</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>If it’s trending, you know about it.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You’re always ahead of the curve, discovering <b className=' font-medium'>new hotspots first.</b></li>
+                      <li className="text-base lg:text-lg">You value <b className=' font-medium'>service and ambiance</b>, ensuring every experience is Instagram-worthy.</li>
+                      <li className="text-base lg:text-lg">Your recommendations influence others, making you a go-to for what’s hot.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Flamingo.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🐧 Penguin – The Thoughtful Planner</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Calculated yet spontaneous.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You balance between <b className=' font-medium'>budget-friendly choices</b> and incredible <b className=' font-medium'>experiences.</b></li>
-                    <li className="text-base lg:text-lg">You carefully research but also love a  <b className=' font-medium'>good, spontaneous adventure.</b></li>
-                    <li className="text-base lg:text-lg">You trust recommendations that fit both your <b className=' font-medium'>practical and indulgent side.</b></li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Penguin – The Thoughtful Planner</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Calculated yet spontaneous.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You balance between <b className=' font-medium'>budget-friendly choices</b> and incredible <b className=' font-medium'>experiences.</b></li>
+                      <li className="text-base lg:text-lg">You carefully research but also love a  <b className=' font-medium'>good, spontaneous adventure.</b></li>
+                      <li className="text-base lg:text-lg">You trust recommendations that fit both your <b className=' font-medium'>practical and indulgent side.</b></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Penguin.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦜 Macaw – The Experience Connoisseur</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>You don’t do average.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You seek <b className=' font-medium'>authentic, high-quality</b> experiences that feel  <b className=' font-medium'>one-of-a-kind.</b></li>
-                    <li className="text-base lg:text-lg">You avoid mainstream recommendations in favour of <b className=' font-medium'>hidden gems.</b></li>
-                    <li className="text-base lg:text-lg">If it’s not special, it’s not worth your time.</li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Macaw – The Experience Connoisseur</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>You don’t do average.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You seek <b className=' font-medium'>authentic, high-quality</b> experiences that feel  <b className=' font-medium'>one-of-a-kind.</b></li>
+                      <li className="text-base lg:text-lg">You avoid mainstream recommendations in favour of <b className=' font-medium'>hidden gems.</b></li>
+                      <li className="text-base lg:text-lg">If it’s not special, it’s not worth your time.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Macaw.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦤 Ostrich – The Hidden Gem Hunter</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Off the beaten path.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You crave <b className=' font-medium'>unique, lesser-known experiences.</b></li>
-                    <li className="text-base lg:text-lg">Your recommendations focus on <b className=' font-medium'>affordability without sacrificing authenticity.</b></li>
-                    <li className="text-base lg:text-lg">You take pride in discovering places <b className=' font-medium'>before they become popular.</b></li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Ostrich – The Hidden Gem Hunter</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Off the beaten path.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You crave <b className=' font-medium'>unique, lesser-known experiences.</b></li>
+                      <li className="text-base lg:text-lg">Your recommendations focus on <b className=' font-medium'>affordability without sacrificing authenticity.</b></li>
+                      <li className="text-base lg:text-lg">You take pride in discovering places <b className=' font-medium'>before they become popular.</b></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Ostrich.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🦩 Toucan – The Effortless Planner</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Smooth and seamless.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You like <b className=' font-medium'>stress-free</b> recommendations with <b className=' font-medium'>great service.</b></li>
-                    <li className="text-base lg:text-lg">You prefer options that are <b className=' font-medium'>pre-vetted and easy to book.</b></li>
-                    <li className="text-base lg:text-lg">Your ideal choice is one that blends <b className=' font-medium'>quality and convenience.</b></li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Toucan – The Effortless Planner</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Smooth and seamless.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You like <b className=' font-medium'>stress-free</b> recommendations with <b className=' font-medium'>great service.</b></li>
+                      <li className="text-base lg:text-lg">You prefer options that are <b className=' font-medium'>pre-vetted and easy to book.</b></li>
+                      <li className="text-base lg:text-lg">Your ideal choice is one that blends <b className=' font-medium'>quality and convenience.</b></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Toucan.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🐦 Pigeon – The Smart Saver</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Best deals, no compromises.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You find the <b className=' font-medium'>best bang for your buck</b> in every recommendation.</li>
-                    <li className="text-base lg:text-lg">You believe in <b className=' font-medium'>smart spending without lowering standards.</b></li>
-                    <li className="text-base lg:text-lg">If there’s a <b className=' font-medium'>hidden discount or an exclusive deal</b> , you know about it.</li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Pigeon – The Smart Saver</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Best deals, no compromises.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You find the <b className=' font-medium'>best bang for your buck</b> in every recommendation.</li>
+                      <li className="text-base lg:text-lg">You believe in <b className=' font-medium'>smart spending without lowering standards.</b></li>
+                      <li className="text-base lg:text-lg">If there’s a <b className=' font-medium'>hidden discount or an exclusive deal</b> , you know about it.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Pigeon.png" alt="" className=' invert w-full' />
                 </div>
               </div>
 
-              <div className=' text-left'>
-                <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>🐓 Rooster – The Local Guru</h6>
-                <div className='pl-3'>
-                  <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>If it’s authentic, you know it.</b></p>
-                  <ul className=' list-disc pl-[25px]'>
-                    <li className="text-base lg:text-lg">You prefer <b className=' font-medium'>authentic, local experiences</b> over tourist traps.</li>
-                    <li className="text-base lg:text-lg">You’re a <b className=' font-medium'>go-to person for genuine recommendations </b> in your area.</li>
-                    <li className="text-base lg:text-lg">You know where to find the best <b className=' font-medium'>quality and cultural experiences.</b></li>
-                  </ul>
+              <div className=' text-left flex'>
+                <div className='basis-[calc(100%-180px)]'>
+                  <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Rooster – The Local Guru</h6>
+                  <div className='pl-2'>
+                    <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>If it’s authentic, you know it.</b></p>
+                    <ul className=' list-disc pl-[25px]'>
+                      <li className="text-base lg:text-lg">You prefer <b className=' font-medium'>authentic, local experiences</b> over tourist traps.</li>
+                      <li className="text-base lg:text-lg">You’re a <b className=' font-medium'>go-to person for genuine recommendations </b> in your area.</li>
+                      <li className="text-base lg:text-lg">You know where to find the best <b className=' font-medium'>quality and cultural experiences.</b></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='basis-[160px]'>
+                  <img src="/assets/img/Rooster.png" alt="" className=' invert w-full' />
                 </div>
               </div>
             </div>
@@ -174,7 +245,7 @@ const KYB = () => {
             <p className="text-base lg:text-lg">Now that you know your bird, let MySifarish help you find curated experiences that match your style. Join us and start discovering the most trusted recommendations from your network and peers. Plus see what bird are based on your Sifarish activities.</p>
           </div>
 
-          <div className=" w-full mx-auto relative">
+          {/* <div className=" w-full mx-auto relative">
             <h4 className="__ldHead ">For internal reference:</h4>
 
             <table className='w-full mt-8'>
@@ -259,7 +330,7 @@ const KYB = () => {
                 </tr>
               </tbody>
             </table>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -13,8 +13,9 @@ const About = () => {
       <section className=" __mainContainer pt-[50px] pb-[80px] lg:pt-[150px] lg:pb-[150px] relative z-[1]">
         <div className='flex flex-col gap-12 lg:gap-20'>
           <div className="max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
-            <h4 className="__ldHead">VISION STATEMENT</h4>
-            <p className="text-base lg:text-lg">“Restoring the lost art of genuine recommendations, empowering decision through community driven experiences and seamlessly connecting the digital and real world”</p>
+            {/* <h4 className="__ldHead">VISION STATEMENT</h4> */}
+            <h4 className="__ldHead">“Restoring the lost art of genuine recommendations, empowering decision through community driven experiences and seamlessly connecting the digital and real world”</h4>
+            {/* <p className="text-base lg:text-lg">“Restoring the lost art of genuine recommendations, empowering decision through community driven experiences and seamlessly connecting the digital and real world”</p> */}
           </div>
 
           <div className="max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
@@ -31,13 +32,13 @@ const About = () => {
           <div className="max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
             <h4 className="__ldHead">What Makes Mysifarish Different?</h4>
             <ul>
-              <li className='flex gap-1.5 text-base lg:text-lg mb-1.5'><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span><strong className=' font-medium'>Personalised & Trusted</strong> – Get recommendations from people who genuinely understand your taste.</span></li>
+              <li className='flex gap-1.5 text-base lg:text-lg mb-1.5'><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span className='text-left'><strong className=' font-medium'>Personalised & Trusted</strong> – Get recommendations from people who genuinely understand your taste.</span></li>
 
-              <li className='flex gap-1.5 text-base lg:text-lg mb-1.5'><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span><strong className=' font-medium'>Built Around Your Community</strong> – No fake reviews, just real insights from your network.</span></li>
+              <li className='flex gap-1.5 text-base lg:text-lg mb-1.5'><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span className='text-left'><strong className=' font-medium'>Built Around Your Community</strong> – No fake reviews, just real insights from your network.</span></li>
 
-              <li className='flex gap-1.5 text-base lg:text-lg mb-1.5'><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span><strong className=' font-medium'>Easy Sharing & Saving</strong> – Create and store your go-to recommendations in one place.</span> </li>
+              <li className='flex gap-1.5 text-base lg:text-lg mb-1.5'><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span className='text-left'><strong className=' font-medium'>Easy Sharing & Saving</strong> – Create and store your go-to recommendations in one place.</span> </li>
 
-              <li className='flex gap-1.5 text-base lg:text-lg '><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span><strong className=' font-medium'>Hyper-Local & Relevant</strong> – Discover the best experiences around you, curated to your style.</span></li>
+              <li className='flex gap-1.5 text-base lg:text-lg '><i className="fa-solid fa-square-check text-[#18b557] mt-1.5"></i><span className='text-left'><strong className=' font-medium'>Hyper-Local & Relevant</strong> – Discover the best experiences around you, curated to your style.</span></li>
             </ul>
           </div>
 

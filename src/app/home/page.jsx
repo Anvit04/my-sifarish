@@ -15,7 +15,7 @@ if (typeof window !== "undefined") {
 export default function Home() {
 
   useEffect(() => {
-    AOS.init({once: true})
+    AOS.init({ once: true })
   }, [])
 
   const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
@@ -41,11 +41,12 @@ export default function Home() {
   return (
     <>
 
-      <section className=" __mainContainer pt-[60px] pb-[80px] md:pt-[50px] md:pb-[200px]">
+      <div className="__waterMark ">
+        <img src="/assets/img/Logo_Icon.svg" alt="Logo Icon" className="__waterMarkImg " />
+      </div>
+
+      <section className=" __mainContainer pt-[60px] pb-[80px] md:pt-[50px] md:pb-[200px] relative z-[1]">
         <div className="relative">
-          <div className="__waterMark ">
-            <img src="/assets/img/Logo_Icon.svg" alt="Logo Icon" className="__waterMarkImg " />
-          </div>
 
           <div className="flex relative flex-col md:flex-row">
             <div className="basis-[56%] lg:basis-[56%] xl:basis-[50%] flex flex-col justify-center">
@@ -59,7 +60,7 @@ export default function Home() {
             </div>
 
             <div className="basis-[44%] lg:basis-[44%] xl:basis-[50%] items-center pl-0 md:pl-7 flex justify-center md:justify-end">
-              <img src="/assets/img/iphone-15_banner.webp" alt="Iphone" className="max-w-[200px] lg:max-w-[250px] xl:max-w-[330px] w-full"  />
+              <img src="/assets/img/iphone-15_banner.webp" alt="Iphone" className="max-w-[200px] lg:max-w-[250px] xl:max-w-[330px] w-full" />
             </div>
           </div>
         </div>
@@ -75,7 +76,7 @@ export default function Home() {
         <div className="flex items-center relative py-3 flex-wrap gap-6 lg:gap-0">
           <div className="__blurFilter_sec"></div>
           <div className="flex-[0_0_100%] lg:flex-[0_0_50%] xl:flex-[0_0_52%] relative flex justify-center lg:justify-start items-end">
-            <img src="/assets/img/iphone-15_rtImg.webp" className="max-w-[228px] lg:max-w-[368px] xl:max-w-[428px] relative z-[1]" data-aos="fade-up"/>
+            <img src="/assets/img/iphone-15_rtImg.webp" className="max-w-[228px] lg:max-w-[368px] xl:max-w-[428px] relative z-[1]" data-aos="fade-up" />
             <img src="/assets/img/curve-right.png" className=" absolute left-52 -bottom-8 xl:-bottom-1 hidden lg:block" />
           </div>
 
@@ -93,7 +94,7 @@ export default function Home() {
           </div>
 
           <div className="flex-[0_0_100%] lg:flex-[0_0_50%] xl:flex-[0_0_52%] relative flex justify-end">
-            <img src="/assets/img/iphone-15_rtImg2.webp" className="max-w-[228px] lg:max-w-[368px] xl:max-w-[428px] relative z-[1]" data-aos="fade-up"/>
+            <img src="/assets/img/iphone-15_rtImg2.webp" className="max-w-[228px] lg:max-w-[368px] xl:max-w-[428px] relative z-[1]" data-aos="fade-up" />
             <img src="/assets/img/curve-left.png" className=" absolute right-52 -bottom-8 xl:-bottom-1 hidden lg:block" />
           </div>
         </div>
@@ -101,7 +102,7 @@ export default function Home() {
         <div className="flex items-center relative py-3 flex-wrap gap-6 lg:gap-0">
           <div className="__blurFilter_sec"></div>
           <div className="flex-[0_0_100%] lg:flex-[0_0_50%] xl:flex-[0_0_52%] relative flex justify-center lg:justify-start items-end">
-            <img src="/assets/img/iphone-15_rtImg3.webp" className="max-w-[228px] lg:max-w-[368px] xl:max-w-[428px] relative z-[1]" data-aos="fade-up"/>
+            <img src="/assets/img/iphone-15_rtImg3.webp" className="max-w-[228px] lg:max-w-[368px] xl:max-w-[428px] relative z-[1]" data-aos="fade-up" />
           </div>
 
           <div className="flex-[0_0_100%] lg:flex-[0_0_50%] xl:flex-[0_0_48%]">
@@ -153,7 +154,7 @@ export default function Home() {
 
         <div className="flex items-center justify-between flex-col-reverse lg:flex-row">
           <div className=" basis-[46%] lg:basis-[40%] xl:basis-[46%]">
-            <img src="/assets/img/Iphone_largeImg.webp" className="max-w-[240px] lg:max-w-[300px] xl:max-w-[380px] w-full" data-aos="fade-up"/>
+            <img src="/assets/img/Iphone_largeImg.webp" className="max-w-[240px] lg:max-w-[300px] xl:max-w-[380px] w-full" data-aos="fade-up" />
           </div>
 
           <div className="basis-[52%] lg:basis-[60%] xl:basis-[52%] w-full relative mb-18 lg:mb-0">

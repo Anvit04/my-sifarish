@@ -127,12 +127,12 @@ body {
 }
 
 .__waterMark {
-  @apply flex justify-center items-start md:items-center absolute top-0 left-0 w-full h-full ;
+  @apply flex justify-center pt-18 md:pt-0 items-start md:items-center fixed top-0 left-0 w-full h-full ;
 }
 
 .__waterMarkImg {
   @apply w-[200px] ;
-  filter: opacity(0.5);
+  filter: opacity(0.2);
   mix-blend-mode: soft-light;
 }
 
@@ -208,7 +208,7 @@ body {
 }
 
 .__mainMenu {
-  @apply before:content-around before:w-0 before:fixed before:h-full before:left-0 before:top-0 before:bg-[#00134045] before:z-[1] before:backdrop-blur-[1px] before:blur-[3px] before:transition-[all_.15s] md:before:content-none;
+  @apply before:content-around before:w-0 before:fixed before:h-full before:left-0 before:top-0 before:bg-[#00134045] before:z-[2] before:backdrop-blur-[1px] before:blur-[3px] before:transition-[all_.15s] md:before:content-none;
   /* background: #00134045;
   z-index: 1;
   backdrop-filter: blur(1px);

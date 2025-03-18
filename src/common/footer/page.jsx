@@ -18,8 +18,8 @@ const Footer = () => {
               </div>
 
               <ul>
-                <li className="mb-3.5"><Link href="#" className="font-medium text-base">Terms of Use</Link></li>
-                <li className="mb-3.5"><Link href="#" className="font-medium text-base">Privacy Policy</Link></li>
+                <li className="mb-3.5"><Link href="/terms-of-use" className="font-medium text-base">Terms of Use</Link></li>
+                <li className="mb-3.5"><Link href="/privacy-policy" className="font-medium text-base">Privacy Policy</Link></li>
                 <li className="mb-3.5"><Link href="#" className="font-medium text-base">Solresol Technologies</Link></li>
                 <li className="mb-4"><Link href="#" className="font-medium text-base">Community</Link></li>
               </ul>

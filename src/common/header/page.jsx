@@ -10,11 +10,13 @@ const Header = () => {
 
 
     return (
-        <header>
+        <header className='relative z-auto md:z-[1]'>
             <div className='__blurFilter'></div>
 
             <div className='flex relative justify-between items-center max-w-[1208px] w-full mx-auto px-4 py-4'>
-                <img src='/assets/img/my-sifarish_logo.svg' alt='Logo' />
+                <Link href="/" className='max-w-[120px] md:max-w-[159px] w-full'>
+                    <img src='/assets/img/my-sifarish_logo.svg' alt='Logo' className='w-full' />
+                </Link>
 
                 {/* <div className={`mobile-menu ${isOpen ? "open" : ""}`}> */}
                 <div className="">
@@ -40,7 +42,7 @@ const Header = () => {
                     <div className='__mainMenu'>
                         <ul className="_otrMenu_bx ">
                             <div className=' absolute h-full flex  md:hidden'><div className='__menuBlur'></div></div>
-                            <div className=' md:hidden mb-5'><img src='/assets/img/my-sifarish_logo.svg' alt='Logo' /></div>
+                            <div className=' md:hidden mb-5'><img src='/assets/img/my-sifarish_logo.svg' className='max-w-[120px] w-full' alt='Logo' /></div>
                             <li><Link href="/" className='text-[16px] font-normal'>Home</Link></li>
                             <li><Link href="/about" className='text-[16px] font-normal'>About</Link></li>
                             <li><Link href="/faq" className='text-[16px] font-normal'>FAQs</Link></li>
