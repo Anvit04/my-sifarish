@@ -1,0 +1,1 @@
+export {default as KYB} from './page'

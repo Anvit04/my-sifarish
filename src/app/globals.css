@@ -1,8 +1,12 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #00070f;
+  --foreground: #ffffff;
+  --blur-filter: #3975ff;
 }
 
 @theme inline {
@@ -22,5 +26,199 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Fredoka", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7fe;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b2b0bf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9c99aa;
+}
+
+
+.__blurFilter {
+  background: var(--blur-filter);
+  width: 100%;
+  position: absolute;
+  height: 53.2vw;
+  top: -48vw;
+  left: 0;
+  filter: blur(35vw);
+  backdrop-filter: blur(35vw);
+  border-radius: 50%;
+}
+
+.__blurFilter_sec, 
+.__blurFilter_sec2 {
+  @apply w-[100px] h-[200px] blur-[140px] bottom-0 md:w-[18vw] md:h-[30vw] md:blur-[18vw] absolute md:-bottom-[3vw];
+  background: var(--blur-filter);
+  border-radius: 0% 50vw 50vw 0%;
+}
+
+.__blurFilter_sec{
+  @apply -left-[12px] 2xl:-left-[7.5vw];
+}
+
+.__blurFilter_sec2 {
+  @apply -right-[12px] 2xl:-right-[7.5vw];
+}
+
+.__myOwlCarousel .owl-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 50px;
+}
+
+.__myOwlCarousel .owl-carousel .owl-dot {
+  width: 14px;
+  height: 14px;
+  background: #ffffff66;
+  border-radius: 50px;
+}
+
+.__myOwlCarousel .owl-carousel .owl-dot.active {
+  background-color: #ffffff;
+}
+
+.__myOwlCarousel .owl-carousel .owl-item img {
+  @apply opacity-40 max-w-[200px] lg:max-w-[280px] xl:max-w-[320px] m-[0_auto];
+  transform: scale(.93);
+  transform-origin: bottom;
+  transition: all .2s;
+}
+
+.__myOwlCarousel .owl-carousel .owl-item.active.center img {
+  opacity: 100%;
+  transform: scale(1);
+}
+
+.__myOwlCarousel .owl-carousel .owl-item ._crsText {
+  @apply text-[28px] text-center mt-7 opacity-0;
+  transition: all .2s;
+}
+
+.__myOwlCarousel .owl-carousel .owl-item.active.center ._crsText {
+  @apply opacity-100;
+}
+
+.__centerBlur {
+  @apply w-[calc(100vw-45px)] h-[calc(100vw-45px)] sm:w-[calc(70vw-45px)] sm:h-[calc(70vw-45px)] blur-[50vw] sm:blur-[38vw] top-28 sm:top-10 md:top-0 lg:w-[400px] lg:h-[400px] xl:w-[432px] xl:h-[432px] absolute lg:blur-[18vw] xl:blur-[16vw] 2xl:blur-[12vw] rounded-full;
+  background: var(--blur-filter);
+}
+
+.__mainContainer {
+  @apply max-w-[1208px] w-full mx-auto px-4;
+}
+
+.__waterMark {
+  @apply flex justify-center items-start md:items-center absolute top-0 left-0 w-full h-full ;
+}
+
+.__waterMarkImg {
+  @apply w-[200px] ;
+  filter: opacity(0.5);
+  mix-blend-mode: soft-light;
+}
+
+.__ldHead {
+  @apply text-[28px] lg:text-4xl xl:text-5xl leading-9 lg:leading-14 mb-4 lg:mb-5 font-medium;
+}
+
+._mainfooter {
+  @apply min-h-[490px] bg-[#00070f0a] relative backdrop-blur-[30vw] lg:backdrop-blur-[12vw];
+}
+
+.__nwsInput {
+  @apply backdrop-blur-[500px] border border-[#ffffff33] bg-[#ffffff26] rounded-lg min-h-[46px] basis-[calc(100%-135px)] text-base p-[10px_14px] focus-visible:outline-0 font-normal focus:border-[#878788];
+}
+
+._joinBtn {
+  @apply bg-[#ffffff] text-[#00070f] rounded-md text-base basis-[117px] px-2 py-0.5;
+  box-shadow: 0px 1px 2px 0px #6951ff0d;
+}
+
+.hamburger-icon {
+  @apply relative h-[28px] w-[30px] flex justify-center rounded-[1px] cursor-pointer md:hidden z-[999];
+  /* z-index: 1000; */
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-1, .icon-2, .icon-3 {
+  @apply absolute top-[46.2%] w-[22px] h-[2px] bg-white;
+  transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
+}
+
+.icon-1 {
+  transform: translateY(-6px);
+  animation-delay: 100ms;
+}
+
+.icon-3 {
+  transform: translateY(6px);
+  animation-delay: 250ms;
+}
+
+.menu-open {
+  overflow: hidden;
+}
+
+.menu-open .icon-1 {
+  transform: rotate(40deg);
+}
+
+.menu-open .icon-3 {
+  transform: rotate(-40deg);
+}
+
+.menu-open .icon-2 {
+  opacity: 0;
+}
+
+._otrMenu_bx {
+  @apply fixed top-0 bg-[#0a0a0a] h-full left-0 z-10 transition-[all_.2s] md:transition-none -translate-x-full md:z-auto md:bg-transparent md:h-auto px-6 py-4 md:px-0 md:py-0 min-w-[250px];
+}
+
+.menu-open ._otrMenu_bx {
+  @apply translate-x-0;
+}
+
+.__menuBlur {
+  @apply w-[350px] h-[350px] absolute -z-[1];
+  background: var(--blur-filter);
+  filter: blur(150px);
+  border-radius: 50%;
+  left: -180px;
+  top: -41px;
+}
+
+.__mainMenu {
+  @apply before:content-around before:w-0 before:fixed before:h-full before:left-0 before:top-0 before:bg-[#00134045] before:z-[1] before:backdrop-blur-[1px] before:blur-[3px] before:transition-[all_.15s] md:before:content-none;
+  /* background: #00134045;
+  z-index: 1;
+  backdrop-filter: blur(1px);
+  filter: blur(3px); */
+}
+
+.menu-open .__mainMenu {
+  @apply before:w-full;
+}
+
+._otrMenu_bx li {
+  @apply mb-2 md:mb-0;
 }
