@@ -29,6 +29,14 @@ body {
   font-family: "Fredoka", sans-serif;
 }
 
+
+body.light-theme {
+  background: var(--foreground);
+  color:  var(--background);
+}
+
+
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -221,4 +229,12 @@ body {
 
 ._otrMenu_bx li {
   @apply mb-2 md:mb-0;
+}
+
+.birdImg_vw {
+  @apply  w-[120px] sm:w-full;
+}
+
+.dark-theme .birdImg_vw {
+  @apply invert ;
 }

@@ -18,8 +18,8 @@ const KYB = () => {
           <div className=" w-full mx-auto text-center relative">
             <h4 className="__ldHead ">Which Bird Are You? ✨</h4>
             <div className='flex flex-col mt-10 gap-10 lg:mt-14 lg:gap-14'>
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Eagle – The Go-Getter</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Efficiency, practicality, and results.</b></p>
@@ -31,13 +31,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Eagle.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Eagle.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Goose – The Experience Collector</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Moments over material.</b></p>
@@ -49,13 +49,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Goose.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Goose.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Owl – The Perfectionist</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Quality is everything.</b></p>
@@ -67,13 +67,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Owl.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Owl.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Peacock – The Luxe Lover</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Why not have it all?</b></p>
@@ -85,13 +85,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Peacock.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Peacock.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Crane – The Smart Selector</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Luxury on a budget.</b></p>
@@ -103,13 +103,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Crane.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Crane.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Flamingo – The Trendsetter</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>If it’s trending, you know about it.</b></p>
@@ -121,13 +121,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Flamingo.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Flamingo.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Penguin – The Thoughtful Planner</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Calculated yet spontaneous.</b></p>
@@ -139,13 +139,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Penguin.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Penguin.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Macaw – The Experience Connoisseur</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>You don’t do average.</b></p>
@@ -157,13 +157,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Macaw.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Macaw.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Ostrich – The Hidden Gem Hunter</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Off the beaten path.</b></p>
@@ -175,13 +175,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Ostrich.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Ostrich.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Toucan – The Effortless Planner</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Smooth and seamless.</b></p>
@@ -192,13 +192,13 @@ const KYB = () => {
                     </ul>
                   </div>
                 </div>
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Toucan.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Toucan.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Pigeon – The Smart Saver</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>Best deals, no compromises.</b></p>
@@ -210,13 +210,13 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Pigeon.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Pigeon.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
 
-              <div className=' text-left flex'>
-                <div className='basis-[calc(100%-180px)]'>
+              <div className=' text-left flex flex-wrap flex-col-reverse sm:flex-row gap-3'>
+                <div className='basis-full sm:basis-[calc(100%-152px)] md:basis-[calc(100%-180px)]'>
                   <h6 className=' text-[22px] lg:text-2xl xl:text-3xl font-medium mb-3 xl:mb-5'>Rooster – The Local Guru</h6>
                   <div className='pl-2'>
                     <p className="text-base lg:text-lg mb-2.5">Your vibe:  <b className=' font-medium'>If it’s authentic, you know it.</b></p>
@@ -228,8 +228,8 @@ const KYB = () => {
                   </div>
                 </div>
 
-                <div className='basis-[160px]'>
-                  <img src="/assets/img/Rooster.png" alt="" className=' invert w-full' />
+                <div className='basis-full sm:basis-[140px] md:basis-[160px]'>
+                  <img src="/assets/img/Rooster.png" alt="" className=' birdImg_vw' />
                 </div>
               </div>
             </div>
