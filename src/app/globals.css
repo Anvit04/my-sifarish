@@ -117,12 +117,21 @@ body.light-theme {
 }
 
 .__myOwlCarousel .owl-carousel .owl-item ._crsText {
-  @apply text-[28px] text-center mt-7 opacity-0;
+  @apply text-center opacity-0;
   transition: all .2s;
 }
 
 .__myOwlCarousel .owl-carousel .owl-item.active.center ._crsText {
   @apply opacity-100;
+}
+
+.__myOwlCarousel .owl-carousel .owl-item ._crsText h4{
+  @apply text-[28px]  mt-7 ;
+  transition: all .2s;
+}
+
+.__myOwlCarousel .owl-carousel .owl-item ._crsText a {
+  @apply text-[#3975ff] underline ;
 }
 
 .__centerBlur {
@@ -135,7 +144,7 @@ body.light-theme {
 }
 
 .__waterMark {
-  @apply flex justify-center pt-18 md:pt-0 items-start md:items-center fixed top-0 left-0 w-full h-full ;
+  @apply flex justify-center pt-0 items-center fixed top-0 left-0 w-full h-full ;
 }
 
 .__waterMarkImg {
@@ -157,7 +166,7 @@ body.light-theme {
 }
 
 ._joinBtn {
-  @apply bg-[#ffffff] text-[#00070f] rounded-md text-base basis-[117px] px-2 py-0.5;
+  @apply bg-[#ffffff] text-[#00070f] rounded-md text-base basis-[117px] px-2 py-0.5 cursor-pointer;
   box-shadow: 0px 1px 2px 0px #6951ff0d;
 }
 
