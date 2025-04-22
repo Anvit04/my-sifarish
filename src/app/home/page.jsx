@@ -64,7 +64,7 @@ export default function Home() {
 
       <section className=" __mainContainer">
 
-        <div className="mb-12 lg:mb-24 max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
+        <div className="max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
           <h4 className="__ldHead ">Restoring the Power of Real Recommendations</h4>
           <p className="text-base lg:text-lg">Finding reliable recommendations today is harder than ever. Fake reviews, paid rankings, and algorithm-driven suggestions have replaced real, word-of-mouth advice. <br /> At MySifarish, we bring back the power of authentic recommendations—from real people, based on real experiences. Whether you’re looking for the best restaurants, hidden travel gems, or binge-worthy entertainment, we connect you to trusted suggestions from like-minded individuals. <br /> No paid promotions. No fake reviews. Just real insights from real people.</p>
         </div>
@@ -138,6 +138,22 @@ export default function Home() {
               <div className="_crsText">
                 <h4 className="">Share. Save. Ask. Repeat.</h4>
                 <p>Whether you’re planning a trip or looking for the next show to binge, easily ask or share recommendations with your network.</p>
+              </div>
+            </div>
+
+            <div className="item">
+              <img src="/assets/img/crs_phone1.webp" />
+              <div className="_crsText">
+                <h4 className="">Built on Real Experiences</h4>
+                <p>No bots. Just trusted recommendations from people you know—or people like you.</p>
+              </div>
+            </div>
+
+            <div className="item">
+              <img src="/assets/img/crs_phone1.webp" />
+              <div className="_crsText">
+                <h4 className="">Personalised Discovery, Always</h4>
+                <p>Your unique taste is everything. That’s why your feed is tailored through <Link href="/kyb">Bird Personalities</Link> that reflect your style.</p>
               </div>
             </div>
           </OwlCarousel>
