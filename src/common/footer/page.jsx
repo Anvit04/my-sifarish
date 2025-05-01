@@ -30,7 +30,7 @@ const Footer = () => {
                 <ul className="flex gap-5">
                   <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-facebook-f"></i></Link></li>
                   <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-x-twitter"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-instagram"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href="https://www.instagram.com/mysifarish" className="text-2xl"><i className="fa-brands fa-instagram"></i></Link></li>
                   <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-linkedin"></i></Link></li>
                 </ul>
               </div>
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="basis-full sm:basis-[65%] lg:basis-96">
               <h6 className="text-2xl font-medium mb-7">Get the app now</h6>
 
-              <div className="flex gap-5 ">
+              <div className="flex gap-5">
                 <Link href="#"><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
                 <Link href="#"><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
               </div>

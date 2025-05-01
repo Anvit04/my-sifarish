@@ -162,11 +162,11 @@ body.light-theme {
 }
 
 .__nwsInput {
-  @apply backdrop-blur-[500px] border border-[#ffffff33] bg-[#ffffff26] rounded-lg min-h-[46px] basis-[calc(100%-135px)] text-base p-[10px_14px] focus-visible:outline-0 font-normal focus:border-[#878788];
+  @apply backdrop-blur-[500px] border border-[#ffffff33] bg-[#ffffff26] rounded-lg min-h-[46px] min-w-[100%] sm:min-w-auto basis-[calc(100%-135px)] text-base p-[10px_14px] focus-visible:outline-0 font-normal focus:border-[#878788];
 }
 
 ._joinBtn {
-  @apply bg-[#ffffff] text-[#00070f] rounded-md text-base basis-[117px] px-2 py-0.5 cursor-pointer;
+  @apply bg-[#ffffff] text-[#00070f] rounded-md text-base min-h-[46px] basis-[117px] px-2 py-0.5 cursor-pointer;
   box-shadow: 0px 1px 2px 0px #6951ff0d;
 }
 

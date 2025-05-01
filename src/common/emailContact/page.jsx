@@ -36,7 +36,7 @@ Email: ${userEmail}`
 
   return (
     <div className="flex flex-col gap-2 mt-6 lg:mt-8">
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-wrap">
         <input
           type="email"
           className={`__nwsInput ${error ? 'border-red-500' : ''}`}
