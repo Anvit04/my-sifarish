@@ -50,8 +50,8 @@ export default function Home() {
               <p className="text-base lg:text-lg">Introducing MySifarish – your go-to app for storing and organizing all your trusted recommendations in one place. From restaurants to movies, save and access and share everything effortlessly. Say goodbye to scattered notes and bogus review systems . Mysifarish this is a trusted way to explore things …</p>
 
               <div className="flex gap-5 mt-9 mb-10 lg:mt-16 lg:mb-0">
-                <Link href="https://play.google.com/store/apps/details?id=com.mysifarish" target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[140px] lg:w-[169px]" alt="google" /></Link>
-                <Link href="https://apps.apple.com/in/app/mysifarish/id6742560730" target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[140px] lg:w-[169px]" alt="apple" /></Link>
+                <Link href={`https://play.google.com/store/apps/details?id=com.mysifarish`} target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[140px] lg:w-[169px]" alt="google" /></Link>
+                <Link href={`https://apps.apple.com/in/app/mysifarish/id6742560730`} target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[140px] lg:w-[169px]" alt="apple" /></Link>
               </div>
             </div>
 
@@ -158,8 +158,8 @@ export default function Home() {
               <p className="text-base lg:text-lg text-center lg:text-left">Download MySifarish and discover real recommendations you can trust. </p>
             </div>
             <div className="flex gap-5 mt-8 lg:mt-16 px-5 lg:px-0">
-              <Link href="https://play.google.com/store/apps/details?id=com.mysifarish" target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
-              <Link href="https://apps.apple.com/in/app/mysifarish/id6742560730" target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
+              <Link href={`https://play.google.com/store/apps/details?id=com.mysifarish`} target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
+              <Link href={`https://apps.apple.com/in/app/mysifarish/id6742560730`} target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
             </div>
           </div>
         </div>

@@ -22,16 +22,16 @@ const Footer = () => {
               <ul>
                 <li className="mb-3.5"><Link href="/terms-of-use" className="font-medium text-base">Terms of Use</Link></li>
                 <li className="mb-3.5"><Link href="/privacy-policy" className="font-medium text-base">Privacy Policy</Link></li>
-                <li className="mb-3.5"><Link href="#" className="font-medium text-base">Solresol Technologies</Link></li>
-                <li className="mb-4"><Link href="https://www.instagram.com/mysifarish" target='_blank' className="font-medium text-base">Community</Link></li>
+                <li className="mb-3.5"><Link href={`https://solresoltechnologies.com/`} className="font-medium text-base">Solresol Technologies</Link></li>
+                <li className="mb-4"><Link href={`https://www.instagram.com/mysifarish`} target='_blank' className="font-medium text-base">Community</Link></li>
               </ul>
 
               <div>
                 <ul className="flex gap-5">
-                  <li className="min-w-[24px]"><Link href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61556980132170" target='_blank' className="text-2xl"><i className="fa-brands fa-facebook-f"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="https://x.com/MySifarish" target='_blank' className="text-2xl"><i className="fa-brands fa-x-twitter"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="https://www.youtube.com/@MySifarish" target='_blank' className="text-2xl"><i className="fa-brands fa-youtube"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="https://www.linkedin.com/company/mysifarish" target='_blank' className="text-2xl"><i className="fa-brands fa-linkedin"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href={`https://www.facebook.com/profile.php?viewas=100000686899395&id=61556980132170`} target='_blank' className="text-2xl"><i className="fa-brands fa-facebook-f"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href={`https://x.com/MySifarish`} target='_blank' className="text-2xl"><i className="fa-brands fa-x-twitter"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href={`https://www.youtube.com/@MySifarish`} target='_blank' className="text-2xl"><i className="fa-brands fa-youtube"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href={`https://www.linkedin.com/company/mysifarish`} target='_blank' className="text-2xl"><i className="fa-brands fa-linkedin"></i></Link></li>
                 </ul>
               </div>
 
@@ -51,8 +51,8 @@ const Footer = () => {
               <h6 className="text-2xl font-medium mb-7">Get the app now</h6>
 
               <div className="flex gap-5">
-                <Link href="https://play.google.com/store/apps/details?id=com.mysifarish" target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
-                <Link href="https://apps.apple.com/in/app/mysifarish/id6742560730" target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
+                <Link href={`https://play.google.com/store/apps/details?id=com.mysifarish`} target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
+                <Link href={`https://apps.apple.com/in/app/mysifarish/id6742560730`} target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
               </div>
 
               <EmailContact/>
