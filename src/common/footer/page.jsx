@@ -16,22 +16,22 @@ const Footer = () => {
             <div className="basis-full sm:basis-[50%] lg:basis-[266px]">
               <div className="mb-7">
                 <img src="/assets/img/footer_logo.svg" alt="" />
-                <p className="mt-2.5 text-base">© solresoltechonologies</p>
+                <p className="mt-2.5 text-base"><Link href={`https://solresoltechnologies.com/`}>© solresoltechnologies.com</Link></p>
               </div>
 
               <ul>
                 <li className="mb-3.5"><Link href="/terms-of-use" className="font-medium text-base">Terms of Use</Link></li>
                 <li className="mb-3.5"><Link href="/privacy-policy" className="font-medium text-base">Privacy Policy</Link></li>
                 <li className="mb-3.5"><Link href="#" className="font-medium text-base">Solresol Technologies</Link></li>
-                <li className="mb-4"><Link href="https://www.instagram.com/mysifarish" className="font-medium text-base">Community</Link></li>
+                <li className="mb-4"><Link href="https://www.instagram.com/mysifarish" target='_blank' className="font-medium text-base">Community</Link></li>
               </ul>
 
               <div>
                 <ul className="flex gap-5">
-                  <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-facebook-f"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-x-twitter"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="https://www.instagram.com/mysifarish" className="text-2xl"><i className="fa-brands fa-instagram"></i></Link></li>
-                  <li className="min-w-[24px]"><Link href="#" className="text-2xl"><i className="fa-brands fa-linkedin"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61556980132170" target='_blank' className="text-2xl"><i className="fa-brands fa-facebook-f"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href="https://x.com/MySifarish" target='_blank' className="text-2xl"><i className="fa-brands fa-x-twitter"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href="https://www.youtube.com/@MySifarish" target='_blank' className="text-2xl"><i className="fa-brands fa-youtube"></i></Link></li>
+                  <li className="min-w-[24px]"><Link href="https://www.linkedin.com/company/mysifarish" target='_blank' className="text-2xl"><i className="fa-brands fa-linkedin"></i></Link></li>
                 </ul>
               </div>
 
@@ -51,8 +51,8 @@ const Footer = () => {
               <h6 className="text-2xl font-medium mb-7">Get the app now</h6>
 
               <div className="flex gap-5">
-                <Link href="#"><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
-                <Link href="#"><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
+                <Link href="https://play.google.com/store/apps/details?id=com.mysifarish" target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
+                <Link href="https://apps.apple.com/in/app/mysifarish/id6742560730" target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
               </div>
 
               <EmailContact/>
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-[#ffffff80] pt-5 pb-11">
-            <p className="text-[14px] text-center">©solresoltechonologies. All rights reserved.</p>
+            <p className="text-[14px] text-center"><Link href={`https://solresoltechnologies.com/`}>solresoltechnologies.com</Link> . All rights reserved.</p>
           </div>
         </div>
       </div>

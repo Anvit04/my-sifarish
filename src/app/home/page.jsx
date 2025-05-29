@@ -50,8 +50,8 @@ export default function Home() {
               <p className="text-base lg:text-lg">Introducing MySifarish – your go-to app for storing and organizing all your trusted recommendations in one place. From restaurants to movies, save and access and share everything effortlessly. Say goodbye to scattered notes and bogus review systems . Mysifarish this is a trusted way to explore things …</p>
 
               <div className="flex gap-5 mt-9 mb-10 lg:mt-16 lg:mb-0">
-                <Link href="#"><img src="/assets/img/GooglePlayBtn.svg" className="w-[140px] lg:w-[169px]" alt="google" /></Link>
-                <Link href="#"><img src="/assets/img/appleBtn.svg" className="w-[140px] lg:w-[169px]" alt="apple" /></Link>
+                <Link href="https://play.google.com/store/apps/details?id=com.mysifarish" target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[140px] lg:w-[169px]" alt="google" /></Link>
+                <Link href="https://apps.apple.com/in/app/mysifarish/id6742560730" target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[140px] lg:w-[169px]" alt="apple" /></Link>
               </div>
             </div>
 
@@ -140,22 +140,6 @@ export default function Home() {
                 <p>Whether you’re planning a trip or looking for the next show to binge, easily ask or share recommendations with your network.</p>
               </div>
             </div>
-
-            <div className="item">
-              <img src="/assets/img/crs_phone1.webp" />
-              <div className="_crsText">
-                <h4 className="">Built on Real Experiences</h4>
-                <p>No bots. Just trusted recommendations from people you know—or people like you.</p>
-              </div>
-            </div>
-
-            <div className="item">
-              <img src="/assets/img/crs_phone1.webp" />
-              <div className="_crsText">
-                <h4 className="">Personalised Discovery, Always</h4>
-                <p>Your unique taste is everything. That’s why your feed is tailored through <Link href="/kyb">Bird Personalities</Link> that reflect your style.</p>
-              </div>
-            </div>
           </OwlCarousel>
 
         </div>
@@ -174,8 +158,8 @@ export default function Home() {
               <p className="text-base lg:text-lg text-center lg:text-left">Download MySifarish and discover real recommendations you can trust. </p>
             </div>
             <div className="flex gap-5 mt-8 lg:mt-16 px-5 lg:px-0">
-              <Link href="#"><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
-              <Link href="#"><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
+              <Link href="https://play.google.com/store/apps/details?id=com.mysifarish" target='_blank'><img src="/assets/img/GooglePlayBtn.svg" className="w-[169px]" /></Link>
+              <Link href="https://apps.apple.com/in/app/mysifarish/id6742560730" target='_blank'><img src="/assets/img/appleBtn.svg" className="w-[169px]" /></Link>
             </div>
           </div>
         </div>
