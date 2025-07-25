@@ -110,12 +110,30 @@ export default function Home() {
       </section>
 
       <section className=" __mainContainer py-[80px] lg:py-[200px]">
-        <div className="mb-12 lg:mb-24 max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
+        <div className="mb-12 lg:mb-15 max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
           <h4 className="__ldHead ">How MySifarish Works</h4>
           {/* <p className="text-base lg:text-lg">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p> */}
+          <div className="max-w-[680px] w-full mx-auto mt-12 shadow-[0_8px_32px_0_rgba(31,38,135,0.47)]">
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/6QsMkr0kCuE?rel=0&autoplay=0&controls=1`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+          </div>
         </div>
 
-        <div className="__myOwlCarousel" data-aos="fade-up">
+
+
+
+
+
+        {/* Commented on 25 July by Mayank Sir */}
+        {/* <div className="__myOwlCarousel" data-aos="fade-up">
           <OwlCarousel responsive={Responsive} center loop autoplay>
             <div className="item">
               <img src="/assets/img/crs_phone1.webp" />
@@ -142,7 +160,8 @@ export default function Home() {
             </div>
           </OwlCarousel>
 
-        </div>
+        </div> */}
+        {/* Commented on 25 July by Mayank Sir */}
       </section>
 
       <section className=" __mainContainer pb-[100px] lg:pb-[250px] relative z-[1]">
