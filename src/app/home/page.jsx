@@ -55,8 +55,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="basis-[44%] lg:basis-[44%] xl:basis-[50%] items-center pl-0 md:pl-7 flex justify-center md:justify-end">
-              <img src="/assets/img/iphone-15_banner.webp" alt="Iphone" className="max-w-[200px] lg:max-w-[250px] xl:max-w-[330px] w-full" />
+            <div className="basis-[44%] lg:basis-[44%] xl:basis-[50%] items-center pl-0 md:pl-7 pr-12 flex justify-center md:justify-end">
+              <img src="/assets/img/banner_app_img.webp" alt="Iphone" className="max-w-[200px] lg:max-w-[250px] xl:max-w-[330px] w-full rotate-12" />
+              {/* <img src="/assets/img/iphone-15_banner.webp" alt="Iphone" className="max-w-[200px] lg:max-w-[250px] xl:max-w-[330px] w-full" /> */}
             </div>
           </div>
         </div>
@@ -113,17 +114,27 @@ export default function Home() {
         <div className="mb-12 lg:mb-15 max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
           <h4 className="__ldHead ">How MySifarish Works</h4>
           {/* <p className="text-base lg:text-lg">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p> */}
-          <div className="max-w-[680px] w-full mx-auto mt-12 shadow-[0_8px_32px_0_rgba(31,38,135,0.47)]">
-            <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+          <div className="max-w-[680px] w-full mx-auto mt-12 ">
+            {/* <div className="relative w-full aspect-video rounded-lg overflow-hidden">
               <iframe
-                src={`https://www.youtube-nocookie.com/embed/6QsMkr0kCuE?rel=0&autoplay=0&controls=1`}
+                src={`https://solresol.s3.ap-south-1.amazonaws.com/uploads/video/MySifarishIntro.mp4`}
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="w-full h-full"
               ></iframe>
-            </div>
+            </div> */}
+            <video
+              controls
+              autoPlay={true}
+              playsInline
+              className="w-full max-w-sm mx-auto aspect-[9/16] rounded-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.47)] border border-white/10 bg-black"
+            >
+              <source src="https://solresol.s3.ap-south-1.amazonaws.com/uploads/video/MySifarishIntro.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
           </div>
         </div>
 
@@ -168,7 +179,8 @@ export default function Home() {
 
         <div className="flex items-center justify-between flex-col-reverse lg:flex-row">
           <div className=" basis-[46%] lg:basis-[40%] xl:basis-[46%]">
-            <img src="/assets/img/Iphone_largeImg.webp" className="max-w-[240px] lg:max-w-[300px] xl:max-w-[380px] w-full" data-aos="fade-up" />
+            <img src="/assets/img/start_explor_img.webp" className="max-w-[240px] lg:max-w-[300px] xl:max-w-[380px] w-full" data-aos="fade-up" />
+            {/* <img src="/assets/img/Iphone_largeImg.webp" className="max-w-[240px] lg:max-w-[300px] xl:max-w-[380px] w-full" data-aos="fade-up" /> */}
           </div>
 
           <div className="basis-[52%] lg:basis-[60%] xl:basis-[52%] w-full relative mb-18 lg:mb-0">
