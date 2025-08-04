@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import AOS from "aos";
 import "aos/dist/aos.css"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -13,6 +13,7 @@ if (typeof window !== "undefined") {
 }
 
 export default function Home() {
+  const [videoSrc, setVideoSrc] = useState("");
 
   useEffect(() => {
     AOS.init({ once: true })
@@ -36,6 +37,17 @@ export default function Home() {
       margin: 0,
     },
   };
+
+
+
+  useEffect(() => {
+    const isIphone = /iPhone/.test(navigator.userAgent) && !window.MSStream;
+    if (isIphone) {
+      setVideoSrc("https://solresol.s3.ap-south-1.amazonaws.com/uploads/video/MySifarishIntro.mov");
+    } else {
+      setVideoSrc("https://solresol.s3.ap-south-1.amazonaws.com/uploads/video/MySifarishIntro.mp4");
+    }
+  }, []);
 
 
   return (
@@ -114,17 +126,7 @@ export default function Home() {
         <div className="mb-12 lg:mb-15 max-w-[1055px] lg:max-w-[980px] xl:max-w-[1055px] w-full mx-auto text-center relative">
           <h4 className="__ldHead ">How MySifarish Works</h4>
           {/* <p className="text-base lg:text-lg">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p> */}
-          <div className="max-w-[680px] w-full mx-auto mt-12 ">
-            {/* <div className="relative w-full aspect-video rounded-lg overflow-hidden">
-              <iframe
-                src={`https://solresol.s3.ap-south-1.amazonaws.com/uploads/video/MySifarishIntro.mp4`}
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              ></iframe>
-            </div> */}
+          {/* <div className="max-w-[680px] w-full mx-auto mt-12 ">
             <video
               controls
               autoPlay={true}
@@ -135,6 +137,20 @@ export default function Home() {
               Your browser does not support the video tag.
             </video>
 
+          </div> */}
+
+          <div className="max-w-[680px] w-full mx-auto mt-12">
+            {videoSrc && (
+              <video
+                controls
+                autoPlay
+                playsInline
+                className="w-full max-w-sm mx-auto aspect-[9/16] rounded-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.47)] border border-white/10 bg-black"
+              >
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
           </div>
         </div>
 
